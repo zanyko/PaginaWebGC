@@ -1,0 +1,303 @@
+
+body{
+    background-image: url("../assets/img/paisajes/paisaje13.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.centerForm{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.title1{
+    border-radius: 30px;
+    border: 2px solid #09e6b9;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background: rgba(0,0,0,0.5);
+    .tx1{
+        display:table;
+        margin: 0 auto;
+        text-align: center;
+        color: aquamarine;
+        font-family: 'Ubuntu';
+        font-size: 24px;
+        font-style: italic;
+    }
+}
+.title2{
+    border-radius: 30px;
+    border: 2px solid #09e6b9;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background: rgba(0,0,0,0.5);
+    .tx2{
+        display:table;
+        margin: 0 auto;
+        text-align: center;
+        color: rgb(4, 176, 119);
+        font-family: 'Ubuntu';
+        font-size: 14px;
+        font-style: italic;
+    }
+}
+.title3{
+    color: aquamarine;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+}
+
+.guide{
+    margin-bottom:8%;
+    margin-top: 5%;
+    flex-direction: column;
+    justify-content: center;
+}
+.divDelMain{
+    h1 {
+        /* offset-x | offset-y | blur-radius | color */
+        text-shadow: 1px 1px 3px rgb(5, 5, 5);
+        font-size: 100%;
+        justify-content: space-between;
+        width: 85%;
+        margin: auto;
+    }
+    .visortexto{
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 30px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+        text-align: center;
+        font-family:'Times New Roman';
+        font-style: italic;
+        letter-spacing: 2px;
+    }
+}
+.divDelParr{
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 1px 1px 3px rgb(5, 5, 5);
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 30px;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    
+    .ptext{
+        color: rgb(219, 218, 180);
+        width: 35%;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        font-family:'Times New Roman';
+        font-style: italic;
+        letter-spacing: 0px;
+        font-size: 50%;       
+    }
+}
+.imgCarrito{
+    width: 5%;
+}
+
+a{color: white;}
+a:hover{color: rgb(0, 217, 255); background-color: blueviolet;}
+
+/*_________________________________________________*/
+/*______________________NAV________________________*/
+.navbar-toggler{
+    width: auto;
+}
+.navbar-item a{
+    color: #12cfb0;
+    text-decoration:none;
+}
+.navbar-item a:hover {
+    color: rgb(218, 219, 219); 
+    background-color: rgb(8, 44, 5);
+    text-decoration: underline;
+}
+.navbar-item a:visited{color: rgb(64, 150, 184);}
+.nav-link{
+    
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    margin: 0 auto;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.menu{
+    background: linear-gradient(rgb(17, 97, 10),rgb(1, 29, 8));
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+/*_________________________________________________*/
+/*____________________Carrusel_____________________*/
+.div-carousel{
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+    height: auto;
+    margin-bottom: 25%;
+}
+.carousel-inner{
+    display: flex;
+    border-radius: 15px;
+}
+.carousel-item{
+    width: 100%; 
+}
+.carousel-caption{
+    display: block;
+    margin: 0 auto;
+    color: blue;
+    font-family: 'Times New Roman';
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 1px 1px 3px rgb(5, 5, 5);
+    margin-bottom: 5px;
+    width: 50%;
+}
+.d-block{
+    width: 640px;
+    height: 480px;
+}
+/*_________________________________________________*/
+/*------------------------------------------------*/
+
+.card-img-top{
+    width: 100%; height: 100%;
+}
+.divDelMain{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Ubuntu';
+}
+/*____________________________________________*/
+/*_________________FORMULARIO_________________*/
+.centerForm{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    width: 100%;
+    padding: 10px;
+}
+.login-container {
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.login-container h2 {
+    text-align: center;
+    color: lightgreen;
+    
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 1px 1px 3px rgb(5, 5, 5);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: lightgreen;
+}
+
+.input-group input {
+    width: 100%;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #555;
+    background: rgba(0,0,0,0.5);
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(7, 68, 7);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: rgb(28, 95, 8);
+    color: rgb(18, 192, 178);
+}
+/*____________________________________________*/
+/*___________________Cards____________________*/
+.row{
+    margin-bottom: 10%;
+}
+.card{
+    border-radius: 30px !important;
+    color: white !important;
+    text-shadow: rgba(0, 0, 0, 0.336) 0px 0 10px;
+    background-color: rgba(32, 33, 64, 0) !important;
+    -webkit-backdrop-filter: blur(100px) !important;
+    backdrop-filter: blur(100px) !important;
+    width: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card-img-top{
+    margin:auto;
+    width: 20%;
+}
+.card-body{
+    color: white;
+    font-family: 'Ubuntu';
+}
+/*____________________________________________*/
+/*___________________FOOTER___________________*/
+
+footer{
+    background:linear-gradient(rgb(3, 31, 3),rgb(0, 0, 0));
+    position: absolute;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 150px;
+}
+.footerContainer{
+    display: flex; /* added style */
+    justify-content: space-around; /* added style */
+    margin-left: 10px;
+}
+.footerChico{
+    font-family: 'Ubuntu';
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.navr a:hover {
+    color: rgb(218, 219, 219); 
+    background-color: rgb(8, 44, 5);
+    text-decoration: underline;
+}
+.navr{
+    border-radius: 5px;
+    border: 2px solid #052c24;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+/*____________________________________________*/
+/*____________________________________________*/
